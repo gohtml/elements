@@ -1,7 +1,9 @@
 package elements
 
-// A string type representing an escaped HTML code
-type HTMLNode string
+/**
+ * The type of a HTML tag.
+ */
+type TagType int
 
 // A string type representing a URL.
 type URL string
